@@ -1,71 +1,36 @@
-# WD-301: Replicate a Website (Next.js)
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Assignment Overview
-The goal of this assignment is to **replicate the website linked below** as a **responsive landing page** using **Next.js (App Router)** while following best practices.
+## Getting Started
 
-> ## Website to Replicate
-> **[https://unsplash.com/](https://unsplash.com/)**
->
-> Study this website carefully and recreate its layout, sections, and overall design as closely as possible.
->
-> Need extra design inspiration? Browse **[Dribbble Landing Pages](https://dribbble.com/search/landing%20page)**.
+First, run the development server:
 
----
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Features & Requirements
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-▷ **Single Page Application (SPA)**
-   - The landing page should be a single route (e.g., `/`).
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-▷ **Component-Based Structure**
-   - Each section must be its **own component**.
-   - Components **should receive content as props** from `page.tsx`.
-   - You can **reuse components** where applicable.
-   - **TypeScript is required**: type your props properly (interfaces/types).
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-▷ **Responsive Design**
-   - The layout must be **mobile-friendly** and **adaptive**.
-   - Test on common breakpoints (mobile, tablet, desktop).
-   - **Tailwind CSS is recommended**, but any modern styling approach is acceptable.
+## Learn More
 
-▷ **Faithful Replication**
-   - The **layout and structure must match the reference website**.
-   - You may adjust the **color scheme** slightly, but the design should remain clearly recognizable.
+To learn more about Next.js, take a look at the following resources:
 
-▷ **Email Subscription**
-   - The last section should include an **email input field**.
-   - Build the form using **[Web3Forms](https://web3forms.com/)**.
-   - Store the submitted email in a **free online database**, e.g., **[Firebase](https://firebase.google.com/)** or **[MongoDB Atlas](https://www.mongodb.com/atlas)** (free Postgres options like [Supabase](https://supabase.com/) or [Neon](https://neon.tech/) are also fine).
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-▷ **Smooth Scroll Navigation**
-   - Navbar buttons should be **clickable** and should scroll smoothly to the corresponding section.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-▷ **Clickable Elements**
-   - Buttons and links should have **clear styling** to indicate interactivity (hover/focus states).
-   - Non-functional buttons should still appear as clickable UI elements.
+## Deploy on Vercel
 
----
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Icons & Resources
-- Use icons from:
-  - [Lucide](https://lucide.dev/icons/)
-  - [Radix UI](https://www.radix-ui.com/)
-  - Any other trusted source.
-- Free stock images: [Unsplash](https://unsplash.com/)
-- Use [next/image](https://nextjs.org/docs/app/api-reference/components/image) for optimized images where applicable.
-
----
-
-## Marking Criteria
-Your submission will be marked on:
-- How closely it follows **good industry-standard practices**
-- **Good typography** (font choices, sizes, and spacing)
-- How **fast and responsive** the page is
-
----
-
-## Submission
-- Push your code to **GitHub** with a clean commit history.
-- Include clear **setup instructions** (install & run) in your repository.
-
-> **IMPORTANT: Include a link to your DEPLOYED site** (e.g., [Vercel](https://vercel.com/)) **in your submission.**
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
